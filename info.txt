@@ -1,0 +1,8 @@
+1.command to start rabbitmq service in docker
+i. Accroding to tutorial but gets error while accessing management console in browser:- docker run -d --rm --name rabbitmq -p 5672:5672 rabbitmq:3
+ii. command that worked: docker run -d --rm --name rabbitmq -p 5672:5672 -p 15672:15672 -p 5673:5673 rabbitmq:3-management
+
+2. command to see docker services:- docker ps -a
+- if you're getting permission denied the hit this command:- sudo chmod 666 /var/run/docker.sock
+
+3. command to stop and remove docker comtainer: docker stop <container_id> then docker rm <container_id>
