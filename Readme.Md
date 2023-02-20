@@ -1,0 +1,1 @@
+# Learing rabbitMQ concepts
